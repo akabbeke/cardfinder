@@ -1,0 +1,5 @@
+twilio_sid: "sid"
+twilio_token: "token"
+twilio_number: "num"
+target_numbers:
+  - "num"

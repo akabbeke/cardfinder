@@ -95,6 +95,7 @@ class CanadaComputers(CardFinder):
     def get_stock_info(self):
         page = self.make_request(
             'https://www.canadacomputers.com/index.php?cPath=43&sf=:3_5&mfr=&pr='
+            # 'https://www.canadacomputers.com/index.php?cPath=43&sf=:3_3,3_5&mfr=&pr='
         )
 
         soup = BeautifulSoup(page.content, 'html.parser')
@@ -124,4 +125,4 @@ class CanadaComputers(CardFinder):
         return shop_info
 
 if __name__ == '__main__':
-    pprint(MemoryExpress().get_stock_info())
+    pprint(CanadaComputers().get_stock_info())

@@ -11,6 +11,8 @@ beautifulsoup4 = "*"
 requests = "*"
 fake-useragent = "*"
 twilio = "*"
+pyyaml = "*"
+requests-html = "*"
 
 [requires]
 python_version = "3.7"

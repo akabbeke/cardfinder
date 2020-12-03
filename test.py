@@ -1,5 +1,4 @@
-from cardfinder.evga import EVGA
-
+from cardfinder.newegg import NewEgg
 from pprint import pprint
 
-pprint(EVGA().get_stock_info())
+pprint(NewEgg().get_stock_info())
